@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+.product_page{
+    width: 100%;
+}
+.product_list{
+    width: 300px;
+    margin: 10px;
+    padding:10px;
+}
+.product_image{
+    border: 1px solid white;
+    display: block;
+    margin:0 auto;
+}
+.product_title{
+    font-family: 'Nova Mono', monospace;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.product_desc{
+    text-align: center;
+    font-size:1.2rem;
+}
+.product_price{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.product_qty{
+    font-size: 1.2rem;
+}
+.product_list Button{
+    cursor:pointer;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+.product_list Button:last-child{
+    cursor:pointer;
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+.product_list input {
+    cursor:pointer;
+    float: right;
+    width: 35px;
+    height: 35px;
+    outline: none;
+}
+.my_cart_title{
+    text-align: center;
+    font-size: 2rem;
+}
+.navbarlink:active{
+    color: white;
+}
+.cart_is_empty{
+    text-align: center;
+    font-size: 2rem;
+}
+.summary_div{
+    width: auto;
+    background-color:rgb(52,58,64);
+    padding: 20px;
+    margin: 10px 30px;
+    border: 1px black solid;
+}
+.summary{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+.summary_item{
+    color: white;
+    text-align:start;
+    text-transform: lowercase;
+    font-size: 28px;
+}
+.summary_total{
+    color: white;
+    text-align: start;
+}
+.credits_page{
+    text-align: center;
+}
+.credits_page_div{
+    background-color:rgb(52,58,64);
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+.copyrights{
+    color: white;
+    padding: 10px;
+}
+.credits_freepik{
+    color: white;
+    padding: 10px;
+}
+.credits_freepik a{
+    color: blueviolet;
+    padding: 10px;
+}
+.credits_freepik a:hover{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.credits_website{
+    color: white;
+    padding: 10px;
+}
+.credits_website a{
+    color: blueviolet;
+    padding: 10px;
+}
+.credits_website a:hover{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+@media (max-width:500px){
+    .product_page_cart{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+    }
+    .product_list{
+        padding: 5px;
+        height: 480px;
+    }
+}
+.construction{
+    text-align: center;
+    margin: 300px auto;
+}
