@@ -126,10 +126,16 @@
         display:flex;
         justify-content: center;
     }
-    .product_list{
+    .product_list_cart{
         padding: 5px;
         height: 480px;
     }
+    .product_page{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+    }
+
 }
 .construction{
     text-align: center;

@@ -175,28 +175,7 @@ const Products = () => {
             ))}
         </CardGroup>
       </div>
-
-      <div className="footer">
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Shopiee</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href={"/"} className="navbarlink">Home</Nav.Link>
-          <Nav.Link href={"/products"}>Products</Nav.Link>
-        </Nav>
-        <div>
-        Icons made by{" "}
-        <a href="https://www.freepik.com" title="Freepik">
-          Freepik
-        </a>{" "}
-        from{" "}
-        <a href="https://www.flaticon.com/" title="Flaticon">
-          www.flaticon.com
-        </a>
       </div>
-      </Navbar>
-      </div>
-      
-    </div>
   );
 };
 export default Products;
